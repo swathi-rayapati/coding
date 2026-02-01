@@ -1,3 +1,4 @@
+
 print("Hello World")
 print("my name is Swathi" + " age is 35+ ")
 n = [2 ,4 ,5 ,1,9]
@@ -82,4 +83,75 @@ for chr in str:
     count = count+1
 
 print(f"length of given string is {count}")
+
+# Day 17 ( Check data type of variables)
+
+data = input("enter your data to check data type : ")
+check_int = 4
+check_str = "deada"
+print(f"data type of given output is : {type(data)}")
+print(f"data type of given output is : {type(check_int)}")
+print(f"data type of given output is : {type(check_str)}")
+
+# Day 18 ( : Write program that prints profile info)
+
+name = input(" enter your name : ")
+age = input(" enter your age : ")   
+
+print(f"your name is {name} and your age is {age}")
+
+# Day 19 ()
+
+gender = input("enter M of F :")    
+status = input(" enter your marital status : ") 
+print(f"your gender is {gender} and your marital status is {status}")
+
+# Day 20 ( handle wrong output manually)
+if int(age) < 0:
+    print(" age cannot be negative")
+else:
+    print(f" your age is {age}")
+
+# Day 21 (Rewrite all programs from memory)
+
+print("Hello world")
+print("name is x")
+print("age is y")
+a = 10
+b = 20
+print(a,b)
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+name = input("what is your name")
+print("welcome", name)
+num1 = input("enter your first number")
+num2 = input("enter your second number")
+print(num1+num2)
+print(int(num1)+int(num2))
+var = 8
+str = "hello"
+print(str,var)
+print(f"hello {str}{var}")
+
+
+# Day 25 (Learn basic if)
+
+a=2
+
+if a%2 == 0:
+    print(f"{a} is even")
+
+# Day 26 ( check number positive)
+# Day 27 ( check number negative)
+# Day 28  ( check number is zer0)
+check = int(input("enter your number"))
+if check>0:
+    print(f"{check} is positve")
+elif check<0:
+    print(f"{check} is negative")
+else:
+    print(f"{check} is zero")
+
 
