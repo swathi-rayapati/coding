@@ -135,6 +135,26 @@ str = "hello"
 print(str,var)
 print(f"hello {str}{var}")
 
+# Day 24 ( Rewrite calculator cleanly)
+
+num1 = float(input(" enter your first number"))
+num2 = float(input(" enter your second number"))
+option = input("enter yourr selection + or - or * or /")
+if option == "+":
+    print(num1+num2)
+elif option == "-":
+    print(num1-num2)
+elif option == "*":
+    print(num1*num2)
+elif option == "/":
+    if num2 == 0:
+        print("please enter non zero num2")
+    else:
+        print(num1/num2)
+else:
+    print("invalid operation")
+
+
 
 # Day 25 (Learn basic if)
 
